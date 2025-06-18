@@ -1,4 +1,23 @@
+
+# Visual Studio
 .vs/
-*.vsidx
-*.VC.db
 *.user
+*.suo
+*.VC.db
+*.exe
+*.pdb
+*.obj
+*.log
+*.tlog
+*.ipch
+*.cache
+*.ilk
+*.sdf
+*.opensdf
+*.vcxproj.filters
+*.vscode/
+
+# Build output
+x64/
+Debug/
+Release/
