@@ -6,6 +6,8 @@ Voici le resultat final de mon code quand je l'execute:
 
 
 Structure UML DUPROJET :
+
 Les classes jeuvideo et console héritent de la classe produit car ils réutilisent son code avec les attributs et leurs méthodes.
+
 
 ![image](https://github.com/user-attachments/assets/7e5315bf-ad35-4dfc-a7dd-5b38cfd8a4df)
