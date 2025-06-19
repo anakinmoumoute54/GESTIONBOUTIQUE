@@ -1,5 +1,5 @@
 #include "Console.h"
-#include <iomanip>
+#include <iostream>
 
 Console::Console(const std::string& nom, double prix, int stock)
     : Produit(nom, prix) {

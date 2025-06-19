@@ -1,5 +1,5 @@
 #include "JeuVideo.h"
-#include <iomanip>
+#include <iostream>
 
 JeuVideo::JeuVideo(const std::string& titre, const std::string& genre, double prix, int stock)
     : Produit(titre, prix), genre(genre) {
