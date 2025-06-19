@@ -4,5 +4,6 @@ Voici le resultat final de mon code quand je l'execute:
 ![Capture d'écran 2025-06-18 223827](https://github.com/user-attachments/assets/fbacdac2-dce7-491f-befb-4124dd377ecb)
 
 Structure UML DUPROJET :
-![image](https://github.com/user-attachments/assets/7e5315bf-ad35-4dfc-a7dd-5b38cfd8a4df)
 Les classes jeuvideo et console héritent de la classe produit car ils réutilisent son code avec les attributs et leurs méthodes.
+
+![image](https://github.com/user-attachments/assets/7e5315bf-ad35-4dfc-a7dd-5b38cfd8a4df)
