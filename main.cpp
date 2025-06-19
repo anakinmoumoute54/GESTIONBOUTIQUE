@@ -62,7 +62,7 @@ int main() {
         std::cerr << "Erreur modification stock : " << e.what() << '\n';
     }
 
-    std::cout << "\n=========== Tests ventes impossibles ===========\n";
+    std::cout << "\n Tests ventes impossibles \n";
     try {
         boutique.vendreJeu("MarioBros", 50);
     } catch (const ErreurStockInsuffisant& e) {

@@ -20,12 +20,12 @@ void Boutique::ajouterConsole(const Console& console) {
 }
 
 void Boutique::afficherInventaireComplet() const {
-    std::cout << "\n================ Inventaire Jeux Video ================\n";
+    std::cout << "\n Inventaire Jeux Video \n";
     for (const auto& jeu : jeux) {
         std::cout << jeu << '\n';
     }
 
-    std::cout << "\n================ Inventaire Consoles ==================\n";
+    std::cout << "\n Inventaire Consoles \n";
     for (const auto& console : consoles) {
         std::cout << console << '\n';
     }
