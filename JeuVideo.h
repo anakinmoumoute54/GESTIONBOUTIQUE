@@ -1,4 +1,3 @@
-#pragma once
 #include "Produit.h"
 #include "ErreurStockInsuffisant.h"
 #include "ErreurArgumentInvalide.h"
