@@ -4,7 +4,7 @@
 int main() {
     Boutique boutique;
 
-    std::cout << "Creation de jeux video et de consoles...\n";
+    std::cout << "Creation de jeux video et de console\n";
 
     try {
         JeuVideo fc25("FC25", "Sport", 80, 7);
@@ -22,7 +22,7 @@ int main() {
 
     boutique.afficherInventaireComplet();
 
-    std::cout << "\n=========== Ventes valides ===========\n";
+    std::cout << "\nVentes valides \n";
     try {
         boutique.vendreJeu("FC25", 7);
         boutique.vendreConsole("PS5", 8);
@@ -33,7 +33,7 @@ int main() {
     std::cout << "\nTotal produits vendus : " << Boutique::getTotalProduitsVendus() << '\n';
     boutique.afficherInventaireComplet();
 
-    std::cout << "\n=========== Tests de valeurs invalides ===========\n";
+    std::cout << "\n Tests de valeurs invalides \n";
 
     try {
         JeuVideo jeuErreur("ErreurGame", "Test", -10, 1);
@@ -47,7 +47,7 @@ int main() {
         std::cerr << "Erreur creation console : " << e.what() << '\n';
     }
 
-    std::cout << "\n=========== Tests des mutateurs ==========\n";
+    std::cout << "\n Tests des mutateurs \n";
     try {
         JeuVideo temp("Temp", "Test", 50, 1);
         temp.setPrix(-25);
